@@ -77,22 +77,22 @@ def question2():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = " If the initial centroids are within the shaded circles and the distance between the circles is significantly larger than their radii, then all points within a circle will be closer to the centroid within that circle than to the centroid in the other circle. Therefore, when the k-means algorithm completes, each shaded circle will have one cluster centroid at its center."
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Given the spatial layout of the regions, it is likely that points on the inner edges of the crescents, which are closer to the centroid of the opposite crescent, will be assigned to the wrong cluster."
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = " There will not be an empty cluster, assuming standard k-means procedures are followed to handle any potential empty clusters during the iterations."
 
     return answers
 
