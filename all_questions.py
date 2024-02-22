@@ -8,58 +8,64 @@ def question1():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "In hierarchical clustering methods such as single link, complete link, and group average, outliers or small groups of outliers tend to form singleton or small clusters that do not merge with other clusters until much later in the merging process. In k-means clustering, outliers can significantly distort the centroids of clusters, leading to less accurate clustering results​​.
+
+
+
+
+
+"
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "This difference arises because agglomerative hierarchical clustering builds a cluster hierarchy that is deterministic, given the same starting conditions, and it does not rely on initial values that can change between runs. On the other hand, k-means clustering starts with a random initialization of centroids, which can lead to different solutions depending on the initial placement of these centroids​​."
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "Due to the complexity of O(m^2log(m)) for time and O(m^2) for space requirements​​, it is not accurate to claim that k-means is the most efficient clustering algorithm in all cases.  Other algorithms, such as density-based clustering (e.g., DBSCAN), can be more efficient and suitable depending on the context and the specific characteristics of the data."
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(d) explain"] = ""
+    answers["(d) explain"] = "The Sum of Squared Errors (SSE) of the clustering decreases. This is because by introducing a new centroid closer to a subset of the clusters points, you are effectively reducing the total distance of those points from their nearest centroid, thereby lowering the overall SSE."
 
     # type: bool (True/False)
-    answers["(e)"] = -1
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Whenever the Sum of Squared Errors (SSE) decreases in K-means clustering, cohesion increases. This relationship is due to the fact that SSE is a measure of cohesion itself, where a lower SSE indicates that points within a cluster are closer to the centroid, thereby implying higher cohesion within clusters."
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(f) explain"] = ""
+    answers["(f) explain"] = "This is because SSB measures the variance between clusters, and a higher SSB value indicates that the clusters are more spread out from each other, hence more separated."
 
     # type: bool (True/False)
-    answers["(g)"] = -1
+    answers["(g)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = ""
+    answers["(g) explain"] = "Improving cohesion, which involves reducing the Sum of Squared Errors (SSE) within clusters, directly impacts the separation (larger between sum of squares, SSB), as these two metrics are inherently related. Specifically, minimizing SSE (improving cohesion) is equivalent to maximizing SSB (improving separation), given that the total sum of squares (TSS), which is a constant, is equal to the sum of SSE and SSB."
 
     # type: bool (True/False)
-    answers["(h)"] = -1
+    answers["(h)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = ""
+    answers["(h) explain"] = "This is because the total variance in the dataset can be decomposed into the variance within clusters (SSE) and the variance between clusters (BSS). The total variance is a fixed quantity based on the dataset, so if SSE decreases (meaning clusters become more tightly packed), BSS must increase to maintain the total variance constant, and vice versa."
 
     # type: bool (True/False)
-    answers["(i)"] = -1
+    answers["(i)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = ""
+    answers["(i) explain"] = "When cohesion increases, it means that the data points within a cluster are getting closer to their centroid, which reduces the SSE. However, this does not necessarily mean that the separation (SSB) will increase. In fact, its possible that increasing cohesion could lead to a decrease in separation if the clusters become too tight and start to overlap."
 
     return answers
 
