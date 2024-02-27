@@ -11,7 +11,7 @@ def question1():
     answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "In hierarchical clustering methods such as single link, complete link, and group average, outliers or small groups of outliers tend to form singleton or small clusters that do not merge with other clusters until much later in the merging process. In k-means clustering, outliers can significantly distort the centroids of clusters, leading to less accurate clustering results​​.
+    answers["(a) explain"] = "In hierarchical clustering methods such as single link, complete link, and group average, outliers or small groups of outliers tend to form singleton or small clusters that do not merge with other clusters until much later in the merging process. In k-means clustering, outliers can significantly distort the centroids of clusters, leading to less accurate clustering results​​."
 
 
 
