@@ -143,7 +143,7 @@ def question4():
     answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "The large number of points in circle C will attract the nearest centroids. It is highly likely that the centroid to the right in circle B will end up in circle C due to the mass of points pulling it."
 
     # type: int
     answers["(c) Circle (a)"] = 0
