@@ -239,16 +239,16 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Cluster 4 has the highest clustering entropy because it has the most balanced distribution of different classes, indicating a high degree of diversity and no single dominant class."
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Cluster 1 seems to be the most dominated by a single class, which is 'Water', with 30,000. A smaller entropy value indicates that the cluster's composition is less diverse and more orderly, with fewer land cover types sharing similar counts."
 
     return answers
 
