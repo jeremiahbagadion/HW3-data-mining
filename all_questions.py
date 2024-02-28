@@ -146,16 +146,16 @@ def question4():
     answers["(b) explain"] = "The large number of points in circle C will attract the nearest centroids. It is highly likely that the centroid to the right in circle B will end up in circle C due to the mass of points pulling it."
 
     # type: int
-    answers["(c) Circle (a)"] = 0
+    answers["(c) Circle (a)"] = 1
 
     # type: int
     answers["(c) Circle (b)"] = 0
 
     # type: int
-    answers["(c) Circle (c)"] = 0
+    answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "After K-means clustering, circle C will retain the majority of centroids due to its much higher point density, while circles A and B are likely to retain a centroid only if it was initially placed within them, given their equal size and distances."
 
     return answers
 
