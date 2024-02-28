@@ -188,13 +188,13 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set()
+    answers["(a) core"] = set(["B", "C", "E", "F", "I", "J", "L", "M"])
 
     # type: set
-    answers["(a) boundary"] = set()
+    answers["(a) boundary"] = set(["D", "G"])
 
     # type: set
-    answers["(a) noise"] = set()
+    answers["(a) noise"] = set(["A", "H"])
 
     # type: set
     answers["(b) cluster 1"] = set()
@@ -209,10 +209,10 @@ def question6():
     answers["(b) cluster 4"] = set()
 
     # type: set
-    answers["(c)-a core"] = set()
+    answers["(c)-a core"] = set(["B", "C", "D", "E", "F", "G", "I", "J", "L", "M"])
 
     # type: set
-    answers["(c)-a boundary"] = set()
+    answers["(c)-a boundary"] = set(["A", "H"])
 
     # type: set
     answers["(c)-a noise"] = set()
