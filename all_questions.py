@@ -260,55 +260,55 @@ def question8():
     answers = {}
 
     # type: string
-    answers["(a) Matrix 1"] = ""
+    answers["(a) Matrix 1"] = "Dataset Z"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 1"] = ""
+    answers["(a) explain diag entries, Matrix 1"] = "The dark blue diagonal blocks indicate that the distance between points within the same cluster is very low, which is expected because the distance from any point to itself is zero, and points in the same cluster are very close to each other."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 1"] = ""
+    answers["(a) explain non-diag entries, Matrix 1"] = "If the non-diagonal entries are significantly lighter or contain warmer colors such as red, it would indicate that the distance between points in different clusters is higher. This corresponds to the clear separation between clusters observed in Dataset Z, where each cluster is distinct and isolated from the others."
 
     # type: string
-    answers["(a) Matrix 2"] = ""
+    answers["(a) Matrix 2"] = "Dataset X"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 2"] = ""
+    answers["(a) explain diag entries, Matrix 2"] = "The uniform color along the diagonal entries suggests that points within each cluster are evenly spaced, as the clusters are arranged in a diagonal line from top left to bottom right. The tight packing of the central clusters would be indicated by darker colors along the diagonal, while the more spaced-out end clusters might show slightly lighter colors."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 2"] = ""
+    answers["(a) explain non-diag entries, Matrix 2"] = "The symmetry in the non-diagonal entries likely reflects the structured and even spacing between the clusters in Dataset X."
 
     # type: string
-    answers["(a) Matrix 3"] = ""
+    answers["(a) Matrix 3"] = "Dataset Y"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 3"] = ""
+    answers["(a) explain diag entries, Matrix 3"] = "The varying intensity of colors along the diagonal from light blue to green suggests differences in the compactness of the clusters. The lighter colors may correspond to the bottom left clusters in Dataset Y, which are less tightly packed."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 3"] = ""
+    answers["(a) explain non-diag entries, Matrix 3"] = "The variation in color intensity among the non-diagonal entries would reflect the irregular spacing and arrangement of the clusters in Dataset Y. Areas with warmer colors off the diagonal indicate greater distances between clusters."
 
     # type: string
-    answers["(b) Row 1"] = ""
+    answers["(b) Row 1"] = "Cluster A"
 
     # type: string
-    answers["(b) Row 2"] = ""
+    answers["(b) Row 2"] = "Cluster B"
 
     # type: string
-    answers["(b) Row 3"] = ""
+    answers["(b) Row 3"] = "Cluster C"
 
     # type: string
-    answers["(b) Row 4"] = ""
+    answers["(b) Row 4"] = "Cluster D"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "Cluster A because the matrix should show larger distances within this cluster since the points are farther apart which would be represented by lighter colors in the corresponding row and column of the matrix."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = " Cluster B, which is tightly packed, meaning the distances within this cluster are short. This should be represented by darker colors in the matrix, indicating shorter distances."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "Corresponds to Cluster C, also tightly packed, and would have a similar representation in the matrix as Cluster B with darker colors."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = ""
+    answers["(b) Row 4 explain"] = "Matches with Cluster D for the same reasons as Cluster A, with lighter colors representing the larger distances between points within this cluster."
 
     return answers
 
