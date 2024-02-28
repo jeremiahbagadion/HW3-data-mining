@@ -167,13 +167,13 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = {'Group A', 'Group B'}
+    answers["(a)"] = set(["Group A", "Group B"])
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "Group A and Group B have the shortest distance between any two points, thus according to single-link clustering, they should be merged."
 
     # type: set
-    answers["(b)"] = {'Group A', 'Group C'}
+    answers["(b)"] = set(["Group A", "Group C"])
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "The maximum distance between the most distant members of Group A and Group C is smaller than the maximum distance between the most distant members of any other pair of groups. This means that, even at their farthest points, Groups A and C are closer together than any other group combination, making them the best candidates for merging under the complete link criteria."
