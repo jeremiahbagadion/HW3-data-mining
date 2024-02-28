@@ -134,13 +134,13 @@ def question4():
     answers["(a) explain"] = "No initial centroids in circle A and it has the same number of points as circle B but fewer than circle C, it is unlikely that a centroid will move into circle A. Given the proximity to circle C, it's quite likely that at least one centroid will move towards the dense population of points in circle C."
 
     # type: int
-    answers["(b) Circle (a)"] = 0
+    answers["(b) Circle (a)"] = 1
 
     # type: int
-    answers["(b) Circle (b)"] = 0
+    answers["(b) Circle (b)"] = 1
 
     # type: int
-    answers["(b) Circle (c)"] = 0
+    answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
