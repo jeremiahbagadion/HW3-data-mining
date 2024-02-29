@@ -320,22 +320,22 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = []
+    answers["(a)"] = ["hierarchical", "overlapping", "partial"]
 
     # type: list
-    answers["(b)"] = []
+    answers["(b)"] = ["partitional", "exclusive", "complete"]
 
     # type: list
-    answers["(c)"] = []
+    answers["(c)"] = ["partitional", "exclusive", "complete"]
 
     # type: list
-    answers["(d)"] = []
+    answers["(d)"] = ["hierarchical", "overlapping", "partial"]
 
     # type: list
-    answers["(e)"] = []
+    answers["(e)"] = ["partitional", "exclusive", "complete"]
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "The clustering is partitional, exclusive, and complete because each student receives a unique letter grade that categorically places them into a distinct group, and all students in the course are assigned a grade."
 
     return answers
 
