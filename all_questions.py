@@ -12,13 +12,7 @@ def question1():
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "In hierarchical clustering methods such as single link, complete link, and group average, outliers or small groups of outliers tend to form singleton or small clusters that do not merge with other clusters until much later in the merging process. In k-means clustering, outliers can significantly distort the centroids of clusters, leading to less accurate clustering results​​."
-
-
-
-
-
-"
-
+    
     # type: bool (True/False)
     answers["(b)"] = True
 
@@ -80,7 +74,7 @@ def question2():
     answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = " If the initial centroids are within the shaded circles and the distance between the circles is significantly larger than their radii, then all points within a circle will be closer to the centroid within that circle than to the centroid in the other circle. Therefore, when the k-means algorithm completes, each shaded circle will have one cluster centroid at its center."
+    answers["(a) explain"] = "If the initial centroids are within the shaded circles and the distance between the circles is significantly larger than their radii, then all points within a circle will be closer to the centroid within that circle than to the centroid in the other circle. Therefore, when the k-means algorithm completes, each shaded circle will have one cluster centroid at its center."
 
     # type: bool (True/False)
     answers["(b)"] = False
