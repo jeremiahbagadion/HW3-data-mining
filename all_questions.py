@@ -347,7 +347,7 @@ def question10():
     answers["(a) Figure (b)"] = "Yes, clusters for features likely detected with appropriate DBSCAN"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "For figure (a), the features (eyes, nose, mouth) are less dense. The algorithm would likely identify the darker "skin" as the primary cluster because of the high density of points. The eyes, nose, and mouth might be considered noise due to the lower density. For figure (b), the features are denser than their surroundings, and standard DBSCAN settings with a suitable ε and minPts are more likely to identify the features as distinct clusters."
+    answers["(a) explain"] = "For figure (a), the features (eyes, nose, mouth) are less dense. The algorithm would likely identify the darker 'skin' as the primary cluster because of the high density of points. The eyes, nose, and mouth might be considered noise due to the lower density. For figure (b), the features are denser than their surroundings, and standard DBSCAN settings with a suitable ε and minPts are more likely to identify the features as distinct clusters."
 
     # type: string
     answers["(b) Figure (a)"] = "No"
