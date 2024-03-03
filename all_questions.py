@@ -341,25 +341,25 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = ""
+    answers["(a) Figure (a)"] = "No, clusters for features likely not detected with standard DBSCAN"
 
     # type: string
-    answers["(a) Figure (b)"] = ""
+    answers["(a) Figure (b)"] = "Yes, clusters for features likely detected with appropriate DBSCAN"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "For figure (a), the features (eyes, nose, mouth) are less dense. The algorithm would likely identify the darker "skin" as the primary cluster because of the high density of points. The eyes, nose, and mouth might be considered noise due to the lower density. For figure (b), the features are denser than their surroundings, and standard DBSCAN settings with a suitable ε and minPts are more likely to identify the features as distinct clusters."
 
     # type: string
-    answers["(b) Figure (a)"] = ""
+    answers["(b) Figure (a)"] = "No"
 
     # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "Yes, with appropriate K."
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "K-means clustering algorithm is not suitable for figure (a) because it assumes that clusters are isotropic and equally sized in the feature space. Since the facial features (eyes, nose, mouth) are represented by sparser points compared to the denser background 'skin', K-means would likely place centroids in the denser areas. For figure (b) since there are five features (two eyes, two parts of the mouth, and the nose), K should be set to 5. K-means would find the centroids of clusters based on the initial placement, which may or may not correspond exactly to the features depending on the initialization and distribution of points. K-means is sensitive to the initial starting conditions and may require several runs with different initializations to find a clustering that meaningfully represents the features."
 
     # type: string
-    answers["(c)"] = ""
+    answers["(c)"] = "Hierarchical clustering"
 
     return answers
 
